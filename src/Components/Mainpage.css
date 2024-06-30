@@ -1,0 +1,299 @@
+
+
+.main {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./mainimg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 1500px) {
+
+    .main {
+        padding: 80px 0 ;
+        height: 110vh;
+    }
+
+    #textarea{
+        width: 100%;
+        margin-left: 0;
+        gap: 60px;
+    }
+    #mainheading{
+        text-align: center;
+        width: 90%;
+    }
+
+    #mainheadingdiv{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .paras{
+        width: 90%;
+    }
+
+    #subheading{
+        text-align: center;
+        width: 100%;
+        align-items: center;
+        font-size: 30px;
+    }
+
+    #btndiv{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .shopbtn {
+        width: 90%;
+        height: 120px;
+        font-size: 40px;
+    }
+
+    #mainPageCenter{
+        height: 100%;
+    }
+
+    #logos{
+        flex: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* width: 70%; */
+    }
+
+    #logosdiv{
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        height: 70%;
+        /* border: 2px solid white; */
+        /* column-gap: 3px; */
+    }
+
+    #logoImages{
+        width: 100px;
+    }
+
+    #aboutdiv {
+        width: 100%;
+        gap: 20px;
+    }
+
+    #abouthead{
+        font-size: 15px;
+    }
+
+    #aboutsubhead{
+        font-size: 25px;
+    }
+
+    #abouttext {
+        font-size: 15px;
+    }
+
+    #mainPageDiv2 {
+        height: 100%;
+        gap: 20px;
+    }
+
+    #logoWithLine{
+        height: 300px;
+    }
+
+    .logostext{
+        font-size: 15px;
+    }
+
+    #shoeComp {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #shoeCompSubDiv {
+        width: 100%;
+        align-items: center;
+        gap: 50px;
+    }
+
+    #shoeCompSubDiv2 {
+        width: 80%;
+    }
+
+    #shoeCompSubDiv3 {
+        width: 80%;
+        align-items: end;
+    }
+
+    #line {
+        width: 80%;
+    }
+
+    #shoeCompMainDiv {
+        height: max-content;
+        gap: 70px;
+    }
+
+    #shoeCompText {
+        text-align: end;
+    }
+
+    #shoeStructSubHead {
+        width: 80%;
+    }
+
+    #shoeStructHead {
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 600px) {
+    #mainheading {
+        font-size: 45px;
+    }
+
+    #subheading{
+        font-size: 20px;
+    }
+
+    .shopbtn {
+        height: 50px;
+        font-size: 15px;
+    }
+
+    #btndiv{
+        gap: 20px;
+    }
+
+    #textarea{
+        gap: 30px;
+    }
+
+    #sidebar{
+        font-size: 20px;
+    }
+
+    #logos {
+        flex: 50%;
+    }
+
+    #shoeStructSubHead {
+        font-size: 20px;
+    }
+
+    #shoeStructHead {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 300px) {
+    #mainheading{
+        font-size: 30px;
+    }
+
+    #subheading {
+        font-size: 18px;
+    }
+
+    .shopbtn {
+        height: 50px;
+        font-size: 15px;
+    }
+
+    #logosdiv{
+        width: 100%;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    #mainheading{
+        font-size: 60px;
+    }
+
+    .shopbtn {
+        height: 70px;
+        font-size: 20px;
+    }
+
+    #sidebar{
+        font-size: 15px;
+    }
+
+}
+
+@media (min-width:600px) and (max-width:1000px) {
+    #mainheading{
+        font-size: 55px;
+    }
+
+    #subheading {
+        font-size: 27px;
+    }
+
+    .shopbtn {
+        height: 70px;
+        font-size: 25px;
+    }
+}
+
+@media (max-height: 400px) {
+    #mainheading{
+        font-size: 40px;
+    }
+
+    #subheading {
+        font-size: 20px;
+        gap: 2px;
+    }
+
+    #textarea {
+        gap: 5px;
+    }
+
+    .shopbtn {
+        height: 35px;
+        font-size: 12px;
+    }
+
+    #btndiv{
+        gap: 10px;
+    }
+
+    #category1 {
+        gap: 5px;
+    }
+
+    #category2 {
+        gap: 5px;
+    }
+}
+
+
+@media (min-height:400px) and (max-height:900px) and (min-width:1000px) and (max-width:1900px){
+    #mainheading{
+        font-size: 60px;
+    }
+
+    #subheading {
+        font-size: 20px;
+        gap: 2px;
+    }
+
+    #textarea {
+        gap: 5px;
+    }
+
+    .shopbtn {
+        height: 35px;
+        font-size: 12px;
+    }
+
+    #btndiv{
+        gap: 10px;
+    }
+}

@@ -1,0 +1,70 @@
+@media (max-width: 1300px) {
+    #contactUsDiv {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    #numberSection {
+        width: 80%;
+    }
+
+    #numberSectionNumberDivs {
+        align-items: center;
+    }
+
+    #numberSectionHead {
+        justify-content: center;
+    }
+
+    #numberSectionSubHead {
+        align-items: center;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    #numberSectionBottom {
+        display: flex;
+        justify-content: center;
+    }
+
+    #numberSectionLine {
+        width: 80%;
+        height: 1px;
+    }
+
+    #inputSectionDiv {
+        width: 80%;
+    }
+
+    #afterSubmitText {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 500px) {
+    #contactMainHead {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    #inputSectionBtn {
+        width: 60%;
+    }
+
+    #numberSectionHead {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #numberSectionSubHead {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #afterSubmitText {
+        font-size: 30px;
+        text-align: center;
+    }
+}

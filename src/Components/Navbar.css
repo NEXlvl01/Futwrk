@@ -1,0 +1,28 @@
+@media (max-width: 1200px) {
+  .navcont1 {
+    display: none;
+  }
+  .sideBarMenu {
+    display: block;
+  }
+
+  #searchBarDiv {
+    display: flex;
+  }
+
+  #mainSearchBar {
+    display: none;
+  }
+}
+
+@media (max-width:1600px) and (min-width:1200px) {
+  #mainSearchBar {
+    width: 300px;
+  }
+}
+
+#navBar .active {
+  color: white;
+}
+
+

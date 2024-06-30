@@ -1,0 +1,105 @@
+#loginImage {
+  /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Shoe Images/login image 2.jpg'); */
+  background-image: url("../Shoe Images/login image 2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#signupImage {
+  background-image: url("../Shoe Images/signup image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  #login-signup-main-wrapper {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+  #loginImageDiv {
+    display: none;
+  }
+  #signUpImageDiv {
+    display: none;
+  }
+
+  #loginContentDiv {
+    width: 100%;
+  }
+
+  #signUpCotentDiv {
+    width: 100%;
+  }
+
+  #login-signup-main-wrapper {
+    width: 90%;
+  }
+
+  #loginHead {
+    text-align: center;
+  }
+
+  #loginSubHead {
+    text-align: center;
+    width: 100%;
+  }
+
+  #signUpHead {
+    text-align: center;
+  }
+
+  #signUpSubHead {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+  #signUpNameDiv {
+    flex-direction: column;
+  }
+
+  #twoInputDivs {
+    width: 100%;
+  }
+
+  #loginContentDiv {
+    padding: 30px;
+  }
+
+  #signUpCotentDiv {
+    padding: 30px;
+  }
+
+  #switchLoginPage {
+    flex-direction: column;
+  }
+
+  #switchLoginPageText {
+    text-align: center;
+  }
+
+  #alternateLogins {
+    font-size: 10px;
+  }
+
+  #loginHead {
+    font-size: 30px;
+  }
+
+  #loginSubHead {
+    font-size: 17px;
+  }
+
+  #signUpHead {
+    font-size: 30px;
+  }
+
+  #signUpSubHead {
+    font-size: 17px;
+  }
+}

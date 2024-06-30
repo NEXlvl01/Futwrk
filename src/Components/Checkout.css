@@ -1,0 +1,60 @@
+@media (max-width: 1600px) {
+    #checkoutMainDiv {
+        width: 90%;
+    }
+}
+
+@media(max-width: 1300px) {
+    #checkoutSubDiv2 {
+        display: none;
+    }
+    #checkoutSubDiv1 {
+        width: 100%;
+    }
+
+    #responsiveSummaryDiv {
+        display: flex;
+    }
+
+    #loader2 {
+        width: 90%;
+    }
+}
+
+@media (max-width: 550px) {
+    #checkoutMainDiv {
+        padding: 30px 10px;
+    }
+
+    #checkoutSubDiv1 {
+        padding: 10px;
+    }    
+
+    #checkoutMainHead {
+        font-size: 30px;
+    }
+
+    #checkoutSubHeadings {
+        font-size: 18px;
+    }
+
+    #payNowBtn {
+        width: 60%;
+    }
+
+    #checkoutMainDiv input{
+        font-size: 13px;
+    }
+
+    #checkoutMainDiv select {
+        font-size: 10px;
+    }
+    
+    #paymentDoneText {
+        font-size: 17px;
+    }
+
+    #responsiveSummaryDiv {
+        font-size: 15px;
+    }
+}

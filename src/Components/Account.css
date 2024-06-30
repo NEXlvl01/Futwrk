@@ -1,0 +1,93 @@
+#viewAllOrdersDiv:hover ~ #viewAllOrdersLine {
+    background-color: gray;
+}
+
+@media (max-width: 1450px) {
+    #accountMainDiv {
+        width: 100%;
+    }
+
+    #accountWrapper {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 1300px) {
+    #responsiveAccountDropdown {
+        display: flex;
+        padding: 30px;
+    }
+
+    #accountWrapper {
+        padding: 0px 30px;
+        padding-bottom: 30px;
+
+    }
+
+    #accountDropdown {
+        width: 100%;
+    }
+
+    #accountDropdown:focus {
+        outline: none;
+    }
+
+    #accountNavBTNDiv {
+        display: none;
+    }
+
+    #accountContentDiv {
+        width: 100%;
+    }
+
+    #accountFlexSubDivs {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    #accountFlexSubDivsText {
+        width: 100%;
+    }
+
+    #accountFlexSubDivsHead {
+        text-align: center;
+    }
+
+    #accountFlexSubDivsOther {
+        text-align: center;
+    }
+
+    #accountTopText1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+ 
+    #responsiveSignOutBtn {
+        display: block;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    #accountMainDiv {
+        padding: 30px;
+    }
+
+    #accountFlexSubDivsHead {
+        font-size: 28px;
+    }
+
+    #accountFlexSubDivsOther {
+        font-size: 15px;
+    }
+
+    #viewAllOrdersDiv {
+        font-size: 12px;
+    }
+
+    #accountTopText1 {
+        font-size: 30px;
+    }
+}

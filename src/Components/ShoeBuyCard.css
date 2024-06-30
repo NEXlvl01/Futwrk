@@ -1,0 +1,94 @@
+.zoomed {
+    transform: scale(1.2); /* Zoom effect */
+  }
+
+.sizeArt {
+  background-color:#cd9940;
+}
+
+@media (max-width: 1300px) {
+  #shoeBuyFirstDiv {
+    flex-direction: column;
+  }
+
+  #shoeBuyFirstSubDiv1 {
+    width: 100%;
+    /* height: fit-content; */
+  }
+
+  #shoeBuyFirstSubDiv2 {
+    width: 100%;
+  }
+
+  #shoeBuyMainDiv {
+    width: 90%;
+  }
+
+  #shoeBuyMainDiv {
+    padding-top: 15px;
+  }
+
+  #loader {
+    width: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  #shoeBuyTitle {
+    font-size: 17px;
+  }
+
+  #shoeBuyPrice {
+    font-size: 15px;
+    gap: 0px;
+    flex-direction: column;
+  }
+
+  #freeShipping {
+    font-size: 15px;
+  }
+
+  .sizeBTN {
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+  }
+
+  #addToCartDiv {
+    flex-direction: column;
+    /* align-items: center; */
+  }
+
+  #addToCartBTN {
+    width: 60%;
+    font-size: 12px;
+    height: 40px;
+  }
+
+  #cardLogosDiv {
+    flex-direction: column;
+    gap: 2px;
+    height: fit-content;
+    padding: 30px 0;
+  }
+
+  #cardLogosHead {
+    top: 0;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  #cardLogosMainDiv {
+    height: fit-content;
+    padding-top: 10px;
+    /* border: 2px solid white; */
+  }
+
+  #descHead {
+    font-size: 20px;
+  }
+
+  #descBody {
+    font-size: 15px;
+  }
+}

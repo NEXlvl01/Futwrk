@@ -1,0 +1,40 @@
+#category1 {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Shoe Images/Category 1.jpg');
+    /* background-image: url('../Shoe Images/Category 1.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#category2 {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Shoe Images/Category 2.jpg');
+    /* background-image: url('../Shoe Images/Category 2.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.catbtn:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+@media (max-width: 1200px) {
+    #category1 {
+        width: 90%;
+        height: 40%;
+    }
+    #category2 {
+        width: 90%;
+        height: 40%;
+    }
+
+    .catbtn {
+        width: 60%;
+        height: 20%;
+    }
+
+    #catMainDiv {
+        flex-direction: column;
+    }
+}

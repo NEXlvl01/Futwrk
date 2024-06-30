@@ -1,0 +1,20 @@
+@media(max-width: 750px) {
+    #orderConfirmDiv {
+        width: 90%;
+        padding: 80px 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    #orderCofirmHead {
+        font-size: 30px;
+    }
+
+    #orderCofirmText {
+        font-size: 20px;
+    }
+
+    #orderConfirmBtn {
+        font-size: 15px;
+    }
+}

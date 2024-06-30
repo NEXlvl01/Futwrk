@@ -1,0 +1,33 @@
+#shoeSubTitle:hover #subTitleLine{
+    background-color: grey;
+}
+
+@media (max-width: 1200px) {
+    #shoeCardsTopDiv {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #shoeCard {
+        flex: 40%;
+        /* border: 2px solid white; */
+    }
+
+    #fourthDiv {
+        width: 100%;
+        align-items: center;
+    }
+
+    #shoeCardCollection {
+        width: 90%;
+        column-gap: 30px;
+    }
+
+    #shoeName {
+        font-size: 17px;
+    }
+
+    #shoePrice {
+        font-size: 12px;
+    }
+}

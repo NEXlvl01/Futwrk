@@ -1,0 +1,9 @@
+#shoeCard {
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+#shoeCard:hover {
+    transform: scale(1.06);
+  }
+

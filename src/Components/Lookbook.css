@@ -1,0 +1,72 @@
+*{
+    scroll-behavior: smooth;
+}
+#lookbookimg1 {
+    background-image: url('../Shoe Images/Lookbook 3.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+#lookbookimg2 {
+    background-image: url('../Shoe Images/Lookbook 2.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+#lookbookimg3 {
+    background-image: url('../Shoe Images/Lookbook 5.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+#lookbookimg4 {
+    background-image: url('../Shoe Images/Lookbook 4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+#lookbookbtn:hover ~ #lookbookline {
+    background-color: gray;
+}
+
+@media (max-width: 1500px) {
+    #lookbookcontent {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    #lookBookDiv {
+        height: fit-content;
+    }
+
+    #lookbookconthead {
+        width: 90%;
+        height: 10px;
+        text-align: center;
+    }
+
+    #lookbookcontbody {
+        width: 90%;
+        text-align: center;
+        align-items: center;
+        height: fit-content;
+    }
+}
+
+@media (max-width: 500px) {
+    #lookbookconthead {
+        font-size: 25px;
+    }
+
+    #subText {
+        font-size: 17px;
+    }
+}

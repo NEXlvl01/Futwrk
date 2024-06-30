@@ -1,0 +1,47 @@
+#reviewCard {
+    transition: transform .2s;
+}
+
+#reviewCard:hover {
+    transform: scale(1.06);
+}
+
+@media (max-width: 1400px) {
+    #reviewCard {
+        width: 80%;
+        gap: 30px;
+    }
+
+    #review {
+        height: fit-content;
+        padding: 50px 0;
+        gap: 50px;
+    }
+
+    #reviewHead {
+        font-size: 30px;
+    }
+
+    #reviewEnd {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 600px) {
+    #reviewHead {
+        font-size: 20px;
+        text-align: center;
+        padding: 0 50px;
+    }
+    #reviewText {
+        font-size: 14px;
+    }
+
+    #reviewName {
+        font-size: 16px;
+    }
+
+    #reviewEnd {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,118 @@
+.sidepanel {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+  }
+  
+  
+  .sidepanel span {
+    transition: 0.1s;
+  }
+  
+  
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+  
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+
+@media (max-width: 1000px) {
+  
+
+  #title-Sort-Div {
+    gap: 50px;
+  }
+
+  #sortingDiv {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  #filterDiv{
+    width: 90%;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+  }
+
+  #catTitle {
+    text-align: center;
+  }
+
+  #filterShoesContent {
+    font-size: 15px;
+  }
+
+  #noMatchText {
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  #shoeNumber{
+    font-size: 14px;
+  }
+
+
+  #sorting {
+    width: 100%;
+  }
+
+  #catTitle {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  #noMatchText {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 800px) {
+  #navButtons {
+    justify-content: center;
+  }
+
+  #btn1 {
+    padding: 10px 13px;
+    font-size: 10px;
+  }
+
+  #btn2 {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+
+  #btn3 {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+
+  #btn4 {
+    padding: 10px 13px;
+    font-size: 20px;
+  }
+}
+
+  
+  
+  
+  
+  
+  
+  
